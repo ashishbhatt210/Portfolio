@@ -1,7 +1,7 @@
 // POST /api/chat
 // Body: { messages: [{ role: 'user' | 'assistant', content: string }] }
 // Returns SSE stream (Accept: text/event-stream) or { reply: string } fallback.
-import { complete, streamComplete, setCors, handleError } from "./_lib/claude.js";
+import { complete, streamComplete, setCors, handleError } from "./_lib/ai.js";
 import { RESUME_CONTEXT } from "./_lib/resume-context.js";
 
 export default async function handler(req, res) {

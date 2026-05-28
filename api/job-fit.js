@@ -1,7 +1,7 @@
 // POST /api/job-fit
 // Body: { jobDescription: string }
 // Returns: { analysis: string }
-import { complete, setCors, handleError } from "./_lib/claude.js";
+import { complete, setCors, handleError } from "./_lib/ai.js";
 import { RESUME_CONTEXT } from "./_lib/resume-context.js";
 
 export default async function handler(req, res) {

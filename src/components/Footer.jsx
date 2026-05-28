@@ -127,7 +127,7 @@ export default function Footer() {
             B.Tech ECE · {EDUCATION.shortName} '{EDUCATION.period.slice(-2)}
           </div>
           <div className="upper-mono" style={{ color: "var(--ink-faint)" }}>
-            React · Vite · Claude API · Vercel
+            React · Vite · Groq · Vercel
           </div>
         </div>
       </div>

@@ -37,7 +37,7 @@ export default function AILab() {
           }}
         >
           <span style={{ color: "var(--accent)" }}>$</span>
-          <span>connected to claude-sonnet-4-5 · resume context loaded · ready</span>
+          <span>connected to llama-3.3-70b · resume context loaded · ready</span>
           <span className="blink" style={{ marginLeft: "auto", color: "var(--accent)" }}>▊</span>
         </div>
 
